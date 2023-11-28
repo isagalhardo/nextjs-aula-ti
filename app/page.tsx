@@ -1,7 +1,295 @@
-import Image from 'next/image'
+import Menu from './Menu/page'
+import Banner from './Banner/page'
+import Conhecimentos from './Conhecimentos/page'
 
-export default function Home() {
+
+
+export default function Home () {
   return (
-    <h1>Isabella</h1>
+<div className="Home w-96 h-96 relative bg-white">
+    <div className="Component1 w-96 h-96 left-0 top-0 absolute">
+        <div className="Conhecimentos w-96 h-96 left-[5px] top-[1115px] absolute">
+            <div className="Rectangle250 w-96 h-96 left-0 top-[144px] absolute bg-black" />
+            <div className="Rectangle256 w-96 h-96 left-0 top-[144px] absolute bg-gradient-to-b from-sky-400 to-cyan-700" />
+            <div className="Rectangle261 w-96 h-11 left-[541px] top-[73px] absolute bg-gradient-to-b from-cyan-200 via-cyan-500 to-cyan-600" />
+            <div className="OHtmlAPrincipalLinguagemDaProgramaOQueEncontramosNaInternetParaCriarEEditarCDigosEmHtmlNecessRioQualquerEditorDeTextoComumComoBlocoDeNotasAprendiTambemQueHtmlPermitirQueUmNavegadorLeiaETraduzaMarcaEsDeTextosEOutrasMDiasParaUmaPGinaNaWebOCssIndicaOAspectoQueEleDeveTerAFonteOFundoOTextoAsCoresDosLinksAsMargensEADisposiODosObjetosNaPGina w-96 h-72 left-[661px] top-[619px] absolute text-right text-neutral-100 text-xl font-normal font-['Lato'] leading-normal tracking-widest">O html é a principal linguagem  da programação que encontramos  na internet, Para criar e editar códigos em HTML é necessário qualquer editor de texto comum , como bloco de notas , aprendi tambem que  HTML é permitir que um navegador leia e traduza marcações de textos e outras mídias para uma página na web. <br/> <br/>O  CSS indica o aspecto que ele deve ter: a fonte, o fundo, o texto, as cores dos links, as margens e a disposição dos objetos na página.</div>
+            <div className="HtmlECss w-96 h-24 left-[704px] top-[268px] absolute text-black text-8xl font-normal font-['Poller One']">HTML  e  CSS</div>
+            <img className="Image1 w-72 h-80 left-[238px] top-[518px] absolute rounded-full" src="https://s3-alpha-sig.figma.com/img/9dd6/db83/d691d768b0218e5be1b0b5efe98897ac?Expires=1702252800&Signature=ekla2c4rq86e7gkG4Cn9WbXJmrHb10eTzp9OUrfkZToo3fbHMxg~f02jNtem90UUrigjvbz7kBLUfqnKiYN73NKcpToko1swYnAxgDiITEFRaodfYi4EG6QXGZ5Et1viwKPzi-K6FBWwjpv76kBzesg25MUnaoHaz~8a~2lT40RE~1jq6XhXtFuj~EV8C59jqE0-yQD1b7ex6sP~EXJ2IPOR~LKuUlvkunGVaWhmvGyIWKiL1QHmF0ggyf83T4krKqwumd5r9motgEansTnKa~B-J2pvdFU1y47GI0I0uhCBk0N5QvXVNMHMXIUEk5daDQtFdaUxTfl645LxTI5qdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            <img className="Image2 w-80 h-80 left-[91px] top-[315px] absolute rounded-full" src="https://s3-alpha-sig.figma.com/img/dd0c/0751/2502ad12695ebc1b70e09647a559f0c3?Expires=1702252800&Signature=FYrr65X1rQPH8dIkVA3qp1NFvb-j3BZyUYI1BZu8QU2w6dTVOVUaOdvVTVBNDhO0WFTQterp07ryI4HLF1uUWE-L7cwZUTCcsMdL0Lwt-fd-jL7r0hellWVeVmB6Q-2T6w1mmJ0hUS7w7x57zlwpt3BGP-Rvcf4tFuCrl1OS1IFuwGlQV3ivXBaqkLRFBrREVnK0DNpfaimSHVvmDPuWyjk5sGp7-QGj7LusJBl5HbNljmI7f2giRRgJdUsOIM3liqf3UWg0YHIHrm8HsEiVK8xJEAPW3I1XLKYZcR2ct9ib~tCXOlKCHE~1085B92CNKZP~UiaW7tuf-ujo4OUINQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            <div className="Conhecimentos w-96 left-[622px] top-0 absolute"><span className="text-black text-8xl font-normal font-['Poppins']">C</span><span className="text-black text-5xl font-normal font-['Poppins']">onhecimentos</span></div>
+        </div>
+        <div className="Footer w-96 h-96 left-0 top-[3639px] absolute">
+            <div className="Rectangle259 w-96 h-96 left-0 top-0 absolute bg-sky-900" />
+            <div className="Contatos w-64 h-14 left-[199px] top-[78px] absolute text-black text-5xl font-normal font-['Poller One']">Contatos</div>
+            <div className="12982241478 w-96 h-10 left-[147px] top-[184px] absolute text-black text-4xl font-normal font-['Poller One']">(12) 98224-1478</div>
+            <div className="IsabellagalhardoGmailCom w-96 h-10 left-[114px] top-[344px] absolute text-black text-4xl font-normal font-['Poller One']">isabellagalhardo@gmail.com</div>
+        </div>
+        <div className="Banner w-96 h-96 left-[5px] top-[2409px] absolute">
+            <div className="Rectangle260 w-96 h-96 left-[1086.99px] top-[1px] absolute bg-gradient-to-b from-sky-400 to-cyan-700" />
+            <div className="Text left-[283.39px] top-[138px] absolute"><span className="text-black text-4xl font-normal font-['Poller One']"> </span><span className="text-black text-8xl font-normal font-['Poller One']"> </span></div>
+            <div className="JavascriptVercelGithubTailwindCss w-96 left-[61.67px] top-0 absolute text-black text-6xl font-normal font-['Poller One']">Javascript <br/>     Vercel   <br/>             GitHub                                                                                           <br/>Tailwind Css<br/></div>
+            <img className="Image3 w-80 h-80 left-[1361.80px] top-[297px] absolute rounded-full" src="https://s3-alpha-sig.figma.com/img/ae1c/f13b/417d85e90ba7b02af1ea6f328289bfbe?Expires=1702252800&Signature=LOLamAelwDTSXu3~yZrc8cPUOVGWsZ9igI0LubqCBq4UYaIFNSujAr6w69vNpTbiL-W3biANiYJNkcYuy1Wud~r8bj93G5Wn3~AeCpEMtQCwa5QZ2FCLaxs2M8IBHkKtsPQihjBwcy7lj8YCW7E4e-f8XqwxdN3ccJh4po2VtFeWzzutMfkzKIiSw~GZ4fEAUd0Ro-1LAHu-tTQ52VlZ6IbFamBx2RdixeS9cJMcW4rCqJ2BMcAC5HPx5R414elyH28gOQVud~O~soDbsOMIIDiovrmfabBu7wj1-2fPrF-2kB~oAfPmC9tUHMb-yfITrdZydWhzPJG8B7r09zr4yA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            <img className="Image5 w-80 h-72 left-[1396.15px] top-[786px] absolute rounded-full" src="https://s3-alpha-sig.figma.com/img/cb00/8a64/f5f499fb6745109655635d08f0459a28?Expires=1702252800&Signature=OuCmM0ds59v4UbtZTARm15rvjxtWvo1r66WSVItqjxWqCPaCg0noGp9yb2L-MlKq1j5BZpem00VJCVf7aFCzifNzcKd1SuRtpX8M-EUumoy6IUBMHTy-NBnO63-o4vDmXEBGun7pIjUCKYOFnOggt0QEiCrxgpsgw1NZ2umeUhTTlUuQiV4PUtEc062XuRKJBrRWurfyQUAw5GZRIOlJNpc6mvakOP-WvKYuz062FWWb-n3~P31AkT6icoYMspcrVsnnjaxrhQ1DfEGTj45UivB6sQ2dZP42DBgqFsn0If0h~B6vBpQPPyR4dAzkjr7vWbvh20yWOAnQo~CDX2sP2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            <img className="Image6 w-72 h-72 left-[945.42px] top-[36px] absolute rounded-full" src="https://s3-alpha-sig.figma.com/img/e698/2d89/c17197470b8670c7f8544c192cd238b4?Expires=1702252800&Signature=QL84nbZgDSGJbs5gXXkfPMqitumWq~-TBg43XlVWrAV4ZNyz2-FpGY1oVJS9ratfuuNMZD9FPfyv0SeSlreRVZ6Dnqqdl~uWcK-Ynok2LCpLjyZWoKXb8yslTo5vP7hc219swvZrKtpelX6cVUV4jP37OVOSe3dWvXaAi3fkdpvZfmsDfsMlrt4JeldFwOYaoB2i0D3rNuQ7foxk2twG~y1FkCZDCh~GfoW~irUYpdQgqNJwIPPPB1VQWhJRdTk5d2ASGY-apSvjfbbpc3rEjywPBjaW69n92pgSZ93zxe124bkBk~YOjkBjpXX3OVfUqDgdivI41qoLzmUx74OMcQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            <div className="JavascriptUmaLinguagemDeProgramaOInterpretadaEstruturadaDeScriptEmAltoNVelGithubUmaPlataformaDeHospedagemDeCDigoFonteEArquivosComControleDeVersOUsandoOGitAVercelUmaPlataformaVoltadaParaAHospedagemDeAplicaEsDeUmaFormaBemSimplesERPidaOTailwindUmFrameworkDoCssQueNosForneceClassesUtilitRiasDePropSitoNicoQueSOEmSuaMaioriaOpinativasEQueNosAjudamAProjetarNossasPGinasDaWeb w-96 h-96 left-[0.94px] top-[549.20px] absolute text-black text-2xl font-normal font-['Poller One']">JavaScript é uma linguagem de programação interpretada ,estruturada, de script em alto nível. <br/>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git . <br/>A  Vercel é uma plataforma voltada para a hospedagem de aplicações de uma forma bem simples e rápida. <br/>O Tailwind é um framework do CSS que nos fornece classes utilitárias de propósito único que são, em sua maioria, opinativas e que nos ajudam a projetar nossas páginas da web</div>
+            <img className="Image7 w-80 h-80 left-[935.02px] top-[521px] absolute rounded-full" src="https://s3-alpha-sig.figma.com/img/26d0/676a/91292a38437eee5d8ea9555850d42bd2?Expires=1702252800&Signature=XXw-kL-PUwOCBbFqid5ofwO~Q1IKYKaX6c0uxSb8om-EUoGN10y3CoUPpJ10Wej669h0wFeXqjdb4uhnfU8RHGIGRoPIQanfsWUaTkQ86~-6YLNZrZsbf~bnTuHE-5YhRWFYj-uN767Xbag16qndlU7z0mQ7u0elhavex-4-wcKB7gLNlzdKWUSrxVQ91AE6SeKQib-9kOkFqYyW3GVl4aWFz6Eu7zSg5NtzsJvqNPTb08flqOWVRTeI-SECk~p7Zj0h1ZzKedfuYCdY-73tjeTQAd~bgxWaSQXzmyhEXcqwo1ylyjyJPUTe89P9fgzzH29d2MI6fxC-aDz2nt5EMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+        </div>
+        <div className="Menu w-96 h-96 left-0 top-0 absolute">
+            <div className="Rectangle10 w-96 h-20 left-0 top-0 absolute bg-black" />
+            <div className="SobreMim left-[1186px] top-[29px] absolute text-white text-xl font-medium font-['Poppins']">Sobre mim </div>
+            <div className="IsabellaGalhardo left-[79px] top-[29px] absolute text-white text-xl font-medium font-['Poppins']">Isabella Galhardo</div>
+            <div className="Rectangle12 w-1 h-1 left-[821px] top-[247px] absolute bg-black" />
+            <div className="Rectangle92 w-1 h-1 left-[821px] top-[547px] absolute bg-black" />
+            <div className="Rectangle52 w-1 h-1 left-[821px] top-[397px] absolute bg-black" />
+            <div className="Rectangle93 w-1 h-1 left-[821px] top-[697px] absolute bg-black" />
+            <div className="Rectangle32 w-1 h-1 left-[821px] top-[322px] absolute bg-black" />
+            <div className="Rectangle94 w-1 h-1 left-[821px] top-[622px] absolute bg-black" />
+            <div className="Rectangle53 w-1 h-1 left-[821px] top-[472px] absolute bg-black" />
+            <div className="Rectangle95 w-1 h-1 left-[821px] top-[772px] absolute bg-black" />
+            <div className="Rectangle172 w-1 h-1 left-[821px] top-[847px] absolute bg-black" />
+            <div className="Rectangle16 w-1 h-1 left-[821px] top-[262px] absolute bg-black" />
+            <div className="Rectangle96 w-1 h-1 left-[821px] top-[562px] absolute bg-black" />
+            <div className="Rectangle54 w-1 h-1 left-[821px] top-[412px] absolute bg-black" />
+            <div className="Rectangle97 w-1 h-1 left-[821px] top-[712px] absolute bg-black" />
+            <div className="Rectangle33 w-1 h-1 left-[821px] top-[337px] absolute bg-black" />
+            <div className="Rectangle98 w-1 h-1 left-[821px] top-[637px] absolute bg-black" />
+            <div className="Rectangle55 w-1 h-1 left-[821px] top-[487px] absolute bg-black" />
+            <div className="Rectangle99 w-1 h-1 left-[821px] top-[787px] absolute bg-black" />
+            <div className="Rectangle173 w-1 h-1 left-[821px] top-[862px] absolute bg-black" />
+            <div className="Rectangle192 w-1 h-1 left-[881px] top-[862px] absolute bg-black" />
+            <div className="Rectangle208 w-1 h-1 left-[941px] top-[862px] absolute bg-black" />
+            <div className="Rectangle224 w-1 h-1 left-[1001px] top-[862px] absolute bg-black" />
+            <div className="Rectangle20 w-1 h-1 left-[821px] top-[277px] absolute bg-black" />
+            <div className="Rectangle100 w-1 h-1 left-[821px] top-[577px] absolute bg-black" />
+            <div className="Rectangle56 w-1 h-1 left-[821px] top-[427px] absolute bg-black" />
+            <div className="Rectangle101 w-1 h-1 left-[821px] top-[727px] absolute bg-black" />
+            <div className="Rectangle34 w-1 h-1 left-[821px] top-[352px] absolute bg-black" />
+            <div className="Rectangle102 w-1 h-1 left-[821px] top-[652px] absolute bg-black" />
+            <div className="Rectangle57 w-1 h-1 left-[821px] top-[502px] absolute bg-black" />
+            <div className="Rectangle103 w-1 h-1 left-[821px] top-[802px] absolute bg-black" />
+            <div className="Rectangle174 w-1 h-1 left-[821px] top-[877px] absolute bg-black" />
+            <div className="Rectangle193 w-1 h-1 left-[881px] top-[877px] absolute bg-black" />
+            <div className="Rectangle209 w-1 h-1 left-[941px] top-[877px] absolute bg-black" />
+            <div className="Rectangle225 w-1 h-1 left-[1001px] top-[877px] absolute bg-black" />
+            <div className="Rectangle24 w-1 h-1 left-[821px] top-[292px] absolute bg-black" />
+            <div className="Rectangle104 w-1 h-1 left-[821px] top-[592px] absolute bg-black" />
+            <div className="Rectangle58 w-1 h-1 left-[821px] top-[442px] absolute bg-black" />
+            <div className="Rectangle105 w-1 h-1 left-[821px] top-[742px] absolute bg-black" />
+            <div className="Rectangle35 w-1 h-1 left-[821px] top-[367px] absolute bg-black" />
+            <div className="Rectangle106 w-1 h-1 left-[821px] top-[667px] absolute bg-black" />
+            <div className="Rectangle59 w-1 h-1 left-[821px] top-[517px] absolute bg-black" />
+            <div className="Rectangle107 w-1 h-1 left-[821px] top-[817px] absolute bg-black" />
+            <div className="Rectangle175 w-1 h-1 left-[821px] top-[892px] absolute bg-black" />
+            <div className="Rectangle194 w-1 h-1 left-[881px] top-[892px] absolute bg-black" />
+            <div className="Rectangle210 w-1 h-1 left-[941px] top-[892px] absolute bg-black" />
+            <div className="Rectangle226 w-1 h-1 left-[1001px] top-[892px] absolute bg-black" />
+            <div className="Rectangle28 w-1 h-1 left-[821px] top-[307px] absolute bg-black" />
+            <div className="Rectangle108 w-1 h-1 left-[821px] top-[607px] absolute bg-black" />
+            <div className="Rectangle60 w-1 h-1 left-[821px] top-[457px] absolute bg-black" />
+            <div className="Rectangle109 w-1 h-1 left-[821px] top-[757px] absolute bg-black" />
+            <div className="Rectangle36 w-1 h-1 left-[821px] top-[382px] absolute bg-black" />
+            <div className="Rectangle110 w-1 h-1 left-[821px] top-[682px] absolute bg-black" />
+            <div className="Rectangle61 w-1 h-1 left-[821px] top-[532px] absolute bg-black" />
+            <div className="Rectangle111 w-1 h-1 left-[821px] top-[832px] absolute bg-black" />
+            <div className="Rectangle176 w-1 h-1 left-[821px] top-[907px] absolute bg-black" />
+            <div className="Rectangle195 w-1 h-1 left-[881px] top-[907px] absolute bg-black" />
+            <div className="Rectangle211 w-1 h-1 left-[941px] top-[907px] absolute bg-black" />
+            <div className="Rectangle227 w-1 h-1 left-[1001px] top-[907px] absolute bg-black" />
+            <div className="Rectangle13 w-1 h-1 left-[836px] top-[247px] absolute bg-black" />
+            <div className="Rectangle112 w-1 h-1 left-[836px] top-[547px] absolute bg-black" />
+            <div className="Rectangle62 w-1 h-1 left-[836px] top-[397px] absolute bg-black" />
+            <div className="Rectangle113 w-1 h-1 left-[836px] top-[697px] absolute bg-black" />
+            <div className="Rectangle37 w-1 h-1 left-[836px] top-[322px] absolute bg-black" />
+            <div className="Rectangle114 w-1 h-1 left-[836px] top-[622px] absolute bg-black" />
+            <div className="Rectangle63 w-1 h-1 left-[836px] top-[472px] absolute bg-black" />
+            <div className="Rectangle115 w-1 h-1 left-[836px] top-[772px] absolute bg-black" />
+            <div className="Rectangle177 w-1 h-1 left-[836px] top-[847px] absolute bg-black" />
+            <div className="Rectangle17 w-1 h-1 left-[836px] top-[262px] absolute bg-black" />
+            <div className="Rectangle116 w-1 h-1 left-[836px] top-[562px] absolute bg-black" />
+            <div className="Rectangle64 w-1 h-1 left-[836px] top-[412px] absolute bg-black" />
+            <div className="Rectangle117 w-1 h-1 left-[836px] top-[712px] absolute bg-black" />
+            <div className="Rectangle38 w-1 h-1 left-[836px] top-[337px] absolute bg-black" />
+            <div className="Rectangle118 w-1 h-1 left-[836px] top-[637px] absolute bg-black" />
+            <div className="Rectangle65 w-1 h-1 left-[836px] top-[487px] absolute bg-black" />
+            <div className="Rectangle119 w-1 h-1 left-[836px] top-[787px] absolute bg-black" />
+            <div className="Rectangle178 w-1 h-1 left-[836px] top-[862px] absolute bg-black" />
+            <div className="Rectangle196 w-1 h-1 left-[896px] top-[862px] absolute bg-black" />
+            <div className="Rectangle212 w-1 h-1 left-[956px] top-[862px] absolute bg-black" />
+            <div className="Rectangle228 w-1 h-1 left-[1016px] top-[862px] absolute bg-black" />
+            <div className="Rectangle240 w-1 h-1 left-[1061px] top-[862px] absolute bg-black" />
+            <div className="Rectangle21 w-1 h-1 left-[836px] top-[277px] absolute bg-black" />
+            <div className="Rectangle120 w-1 h-1 left-[836px] top-[577px] absolute bg-black" />
+            <div className="Rectangle66 w-1 h-1 left-[836px] top-[427px] absolute bg-black" />
+            <div className="Rectangle121 w-1 h-1 left-[836px] top-[727px] absolute bg-black" />
+            <div className="Rectangle39 w-1 h-1 left-[836px] top-[352px] absolute bg-black" />
+            <div className="Rectangle122 w-1 h-1 left-[836px] top-[652px] absolute bg-black" />
+            <div className="Rectangle67 w-1 h-1 left-[836px] top-[502px] absolute bg-black" />
+            <div className="Rectangle123 w-1 h-1 left-[836px] top-[802px] absolute bg-black" />
+            <div className="Rectangle179 w-1 h-1 left-[836px] top-[877px] absolute bg-black" />
+            <div className="Rectangle197 w-1 h-1 left-[896px] top-[877px] absolute bg-black" />
+            <div className="Rectangle213 w-1 h-1 left-[956px] top-[877px] absolute bg-black" />
+            <div className="Rectangle229 w-1 h-1 left-[1016px] top-[877px] absolute bg-black" />
+            <div className="Rectangle241 w-1 h-1 left-[1061px] top-[877px] absolute bg-black" />
+            <div className="Rectangle25 w-1 h-1 left-[836px] top-[292px] absolute bg-black" />
+            <div className="Rectangle124 w-1 h-1 left-[836px] top-[592px] absolute bg-black" />
+            <div className="Rectangle68 w-1 h-1 left-[836px] top-[442px] absolute bg-black" />
+            <div className="Rectangle125 w-1 h-1 left-[836px] top-[742px] absolute bg-black" />
+            <div className="Rectangle40 w-1 h-1 left-[836px] top-[367px] absolute bg-black" />
+            <div className="Rectangle126 w-1 h-1 left-[836px] top-[667px] absolute bg-black" />
+            <div className="Rectangle69 w-1 h-1 left-[836px] top-[517px] absolute bg-black" />
+            <div className="Rectangle127 w-1 h-1 left-[836px] top-[817px] absolute bg-black" />
+            <div className="Rectangle180 w-1 h-1 left-[836px] top-[892px] absolute bg-black" />
+            <div className="Rectangle198 w-1 h-1 left-[896px] top-[892px] absolute bg-black" />
+            <div className="Rectangle214 w-1 h-1 left-[956px] top-[892px] absolute bg-black" />
+            <div className="Rectangle230 w-1 h-1 left-[1016px] top-[892px] absolute bg-black" />
+            <div className="Rectangle242 w-1 h-1 left-[1061px] top-[892px] absolute bg-black" />
+            <div className="Rectangle29 w-1 h-1 left-[836px] top-[307px] absolute bg-black" />
+            <div className="Rectangle128 w-1 h-1 left-[836px] top-[607px] absolute bg-black" />
+            <div className="Rectangle70 w-1 h-1 left-[836px] top-[457px] absolute bg-black" />
+            <div className="Rectangle129 w-1 h-1 left-[836px] top-[757px] absolute bg-black" />
+            <div className="Rectangle41 w-1 h-1 left-[836px] top-[382px] absolute bg-black" />
+            <div className="Rectangle130 w-1 h-1 left-[836px] top-[682px] absolute bg-black" />
+            <div className="Rectangle71 w-1 h-1 left-[836px] top-[532px] absolute bg-black" />
+            <div className="Rectangle131 w-1 h-1 left-[836px] top-[832px] absolute bg-black" />
+            <div className="Rectangle181 w-1 h-1 left-[836px] top-[907px] absolute bg-black" />
+            <div className="Rectangle199 w-1 h-1 left-[896px] top-[907px] absolute bg-black" />
+            <div className="Rectangle215 w-1 h-1 left-[956px] top-[907px] absolute bg-black" />
+            <div className="Rectangle231 w-1 h-1 left-[1016px] top-[907px] absolute bg-black" />
+            <div className="Rectangle243 w-1 h-1 left-[1061px] top-[907px] absolute bg-black" />
+            <div className="Rectangle14 w-1 h-1 left-[851px] top-[247px] absolute bg-black" />
+            <div className="Rectangle132 w-1 h-1 left-[851px] top-[547px] absolute bg-black" />
+            <div className="Rectangle72 w-1 h-1 left-[851px] top-[397px] absolute bg-black" />
+            <div className="Rectangle133 w-1 h-1 left-[851px] top-[697px] absolute bg-black" />
+            <div className="Rectangle42 w-1 h-1 left-[851px] top-[322px] absolute bg-black" />
+            <div className="Rectangle134 w-1 h-1 left-[851px] top-[622px] absolute bg-black" />
+            <div className="Rectangle73 w-1 h-1 left-[851px] top-[472px] absolute bg-black" />
+            <div className="Rectangle135 w-1 h-1 left-[851px] top-[772px] absolute bg-black" />
+            <div className="Rectangle182 w-1 h-1 left-[851px] top-[847px] absolute bg-black" />
+            <div className="Rectangle18 w-1 h-1 left-[851px] top-[262px] absolute bg-black" />
+            <div className="Rectangle136 w-1 h-1 left-[851px] top-[562px] absolute bg-black" />
+            <div className="Rectangle74 w-1 h-1 left-[851px] top-[412px] absolute bg-black" />
+            <div className="Rectangle137 w-1 h-1 left-[851px] top-[712px] absolute bg-black" />
+            <div className="Rectangle43 w-1 h-1 left-[851px] top-[337px] absolute bg-black" />
+            <div className="Rectangle138 w-1 h-1 left-[851px] top-[637px] absolute bg-black" />
+            <div className="Rectangle75 w-1 h-1 left-[851px] top-[487px] absolute bg-black" />
+            <div className="Rectangle139 w-1 h-1 left-[851px] top-[787px] absolute bg-black" />
+            <div className="Rectangle183 w-1 h-1 left-[851px] top-[862px] absolute bg-black" />
+            <div className="Rectangle200 w-1 h-1 left-[911px] top-[862px] absolute bg-black" />
+            <div className="Rectangle216 w-1 h-1 left-[971px] top-[862px] absolute bg-black" />
+            <div className="Rectangle232 w-1 h-1 left-[1031px] top-[862px] absolute bg-black" />
+            <div className="Rectangle244 w-1 h-1 left-[1076px] top-[862px] absolute bg-black" />
+            <div className="Rectangle22 w-1 h-1 left-[851px] top-[277px] absolute bg-black" />
+            <div className="Rectangle140 w-1 h-1 left-[851px] top-[577px] absolute bg-black" />
+            <div className="Rectangle76 w-1 h-1 left-[851px] top-[427px] absolute bg-black" />
+            <div className="Rectangle141 w-1 h-1 left-[851px] top-[727px] absolute bg-black" />
+            <div className="Rectangle44 w-1 h-1 left-[851px] top-[352px] absolute bg-black" />
+            <div className="Rectangle142 w-1 h-1 left-[851px] top-[652px] absolute bg-black" />
+            <div className="Rectangle77 w-1 h-1 left-[851px] top-[502px] absolute bg-black" />
+            <div className="Rectangle143 w-1 h-1 left-[851px] top-[802px] absolute bg-black" />
+            <div className="Rectangle184 w-1 h-1 left-[851px] top-[877px] absolute bg-black" />
+            <div className="Rectangle201 w-1 h-1 left-[911px] top-[877px] absolute bg-black" />
+            <div className="Rectangle217 w-1 h-1 left-[971px] top-[877px] absolute bg-black" />
+            <div className="Rectangle233 w-1 h-1 left-[1031px] top-[877px] absolute bg-black" />
+            <div className="Rectangle245 w-1 h-1 left-[1076px] top-[877px] absolute bg-black" />
+            <div className="Rectangle26 w-1 h-1 left-[851px] top-[292px] absolute bg-black" />
+            <div className="Rectangle144 w-1 h-1 left-[851px] top-[592px] absolute bg-black" />
+            <div className="Rectangle78 w-1 h-1 left-[851px] top-[442px] absolute bg-black" />
+            <div className="Rectangle145 w-1 h-1 left-[851px] top-[742px] absolute bg-black" />
+            <div className="Rectangle45 w-1 h-1 left-[851px] top-[367px] absolute bg-black" />
+            <div className="Rectangle146 w-1 h-1 left-[851px] top-[667px] absolute bg-black" />
+            <div className="Rectangle79 w-1 h-1 left-[851px] top-[517px] absolute bg-black" />
+            <div className="Rectangle147 w-1 h-1 left-[851px] top-[817px] absolute bg-black" />
+            <div className="Rectangle185 w-1 h-1 left-[851px] top-[892px] absolute bg-black" />
+            <div className="Rectangle202 w-1 h-1 left-[911px] top-[892px] absolute bg-black" />
+            <div className="Rectangle218 w-1 h-1 left-[971px] top-[892px] absolute bg-black" />
+            <div className="Rectangle234 w-1 h-1 left-[1031px] top-[892px] absolute bg-black" />
+            <div className="Rectangle246 w-1 h-1 left-[1076px] top-[892px] absolute bg-black" />
+            <div className="Rectangle30 w-1 h-1 left-[851px] top-[307px] absolute bg-black" />
+            <div className="Rectangle148 w-1 h-1 left-[851px] top-[607px] absolute bg-black" />
+            <div className="Rectangle80 w-1 h-1 left-[851px] top-[457px] absolute bg-black" />
+            <div className="Rectangle149 w-1 h-1 left-[851px] top-[757px] absolute bg-black" />
+            <div className="Rectangle46 w-1 h-1 left-[851px] top-[382px] absolute bg-black" />
+            <div className="Rectangle150 w-1 h-1 left-[851px] top-[682px] absolute bg-black" />
+            <div className="Rectangle81 w-1 h-1 left-[851px] top-[532px] absolute bg-black" />
+            <div className="Rectangle151 w-1 h-1 left-[851px] top-[832px] absolute bg-black" />
+            <div className="Rectangle186 w-1 h-1 left-[851px] top-[907px] absolute bg-black" />
+            <div className="Rectangle203 w-1 h-1 left-[911px] top-[907px] absolute bg-black" />
+            <div className="Rectangle219 w-1 h-1 left-[971px] top-[907px] absolute bg-black" />
+            <div className="Rectangle235 w-1 h-1 left-[1031px] top-[907px] absolute bg-black" />
+            <div className="Rectangle247 w-1 h-1 left-[1076px] top-[907px] absolute bg-black" />
+            <div className="Rectangle15 w-1 h-1 left-[866px] top-[247px] absolute bg-black" />
+            <div className="Rectangle152 w-1 h-1 left-[866px] top-[547px] absolute bg-black" />
+            <div className="Rectangle82 w-1 h-1 left-[866px] top-[397px] absolute bg-black" />
+            <div className="Rectangle153 w-1 h-1 left-[866px] top-[697px] absolute bg-black" />
+            <div className="Rectangle47 w-1 h-1 left-[866px] top-[322px] absolute bg-black" />
+            <div className="Rectangle154 w-1 h-1 left-[866px] top-[622px] absolute bg-black" />
+            <div className="Rectangle83 w-1 h-1 left-[866px] top-[472px] absolute bg-black" />
+            <div className="Rectangle155 w-1 h-1 left-[866px] top-[772px] absolute bg-black" />
+            <div className="Rectangle187 w-1 h-1 left-[866px] top-[847px] absolute bg-black" />
+            <div className="Rectangle19 w-1 h-1 left-[866px] top-[262px] absolute bg-black" />
+            <div className="Rectangle156 w-1 h-1 left-[866px] top-[562px] absolute bg-black" />
+            <div className="Rectangle84 w-1 h-1 left-[866px] top-[412px] absolute bg-black" />
+            <div className="Rectangle157 w-1 h-1 left-[866px] top-[712px] absolute bg-black" />
+            <div className="Rectangle48 w-1 h-1 left-[866px] top-[337px] absolute bg-black" />
+            <div className="Rectangle158 w-1 h-1 left-[866px] top-[637px] absolute bg-black" />
+            <div className="Rectangle85 w-1 h-1 left-[866px] top-[487px] absolute bg-black" />
+            <div className="Rectangle159 w-1 h-1 left-[866px] top-[787px] absolute bg-black" />
+            <div className="Rectangle188 w-1 h-1 left-[866px] top-[862px] absolute bg-black" />
+            <div className="Rectangle204 w-1 h-1 left-[926px] top-[862px] absolute bg-black" />
+            <div className="Rectangle220 w-1 h-1 left-[986px] top-[862px] absolute bg-black" />
+            <div className="Rectangle236 w-1 h-1 left-[1046px] top-[862px] absolute bg-black" />
+            <div className="Rectangle23 w-1 h-1 left-[866px] top-[277px] absolute bg-black" />
+            <div className="Rectangle160 w-1 h-1 left-[866px] top-[577px] absolute bg-black" />
+            <div className="Rectangle86 w-1 h-1 left-[866px] top-[427px] absolute bg-black" />
+            <div className="Rectangle161 w-1 h-1 left-[866px] top-[727px] absolute bg-black" />
+            <div className="Rectangle49 w-1 h-1 left-[866px] top-[352px] absolute bg-black" />
+            <div className="Rectangle162 w-1 h-1 left-[866px] top-[652px] absolute bg-black" />
+            <div className="Rectangle87 w-1 h-1 left-[866px] top-[502px] absolute bg-black" />
+            <div className="Rectangle163 w-1 h-1 left-[866px] top-[802px] absolute bg-black" />
+            <div className="Rectangle189 w-1 h-1 left-[866px] top-[877px] absolute bg-black" />
+            <div className="Rectangle205 w-1 h-1 left-[926px] top-[877px] absolute bg-black" />
+            <div className="Rectangle221 w-1 h-1 left-[986px] top-[877px] absolute bg-black" />
+            <div className="Rectangle237 w-1 h-1 left-[1046px] top-[877px] absolute bg-black" />
+            <div className="Rectangle27 w-1 h-1 left-[866px] top-[292px] absolute bg-black" />
+            <div className="Rectangle164 w-1 h-1 left-[866px] top-[592px] absolute bg-black" />
+            <div className="Rectangle88 w-1 h-1 left-[866px] top-[442px] absolute bg-black" />
+            <div className="Rectangle165 w-1 h-1 left-[866px] top-[742px] absolute bg-black" />
+            <div className="Rectangle50 w-1 h-1 left-[866px] top-[367px] absolute bg-black" />
+            <div className="Rectangle166 w-1 h-1 left-[866px] top-[667px] absolute bg-black" />
+            <div className="Rectangle89 w-1 h-1 left-[866px] top-[517px] absolute bg-black" />
+            <div className="Rectangle167 w-1 h-1 left-[866px] top-[817px] absolute bg-black" />
+            <div className="Rectangle190 w-1 h-1 left-[866px] top-[892px] absolute bg-black" />
+            <div className="Rectangle206 w-1 h-1 left-[926px] top-[892px] absolute bg-black" />
+            <div className="Rectangle222 w-1 h-1 left-[986px] top-[892px] absolute bg-black" />
+            <div className="Rectangle238 w-1 h-1 left-[1046px] top-[892px] absolute bg-black" />
+            <div className="Rectangle31 w-1 h-1 left-[866px] top-[307px] absolute bg-black" />
+            <div className="Rectangle168 w-1 h-1 left-[866px] top-[607px] absolute bg-black" />
+            <div className="Rectangle90 w-1 h-1 left-[866px] top-[457px] absolute bg-black" />
+            <div className="Rectangle169 w-1 h-1 left-[866px] top-[757px] absolute bg-black" />
+            <div className="Rectangle51 w-1 h-1 left-[866px] top-[382px] absolute bg-black" />
+            <div className="Rectangle170 w-1 h-1 left-[866px] top-[682px] absolute bg-black" />
+            <div className="Rectangle91 w-1 h-1 left-[866px] top-[532px] absolute bg-black" />
+            <div className="Rectangle171 w-1 h-1 left-[866px] top-[832px] absolute bg-black" />
+            <div className="Rectangle191 w-1 h-1 left-[866px] top-[907px] absolute bg-black" />
+            <div className="Rectangle207 w-1 h-1 left-[926px] top-[907px] absolute bg-black" />
+            <div className="Rectangle223 w-1 h-1 left-[986px] top-[907px] absolute bg-black" />
+            <div className="Rectangle239 w-1 h-1 left-[1046px] top-[907px] absolute bg-black" />
+            <div className="IconsLogoFacebook w-6 h-6 left-[57px] top-[420px] absolute" />
+            <div className="IconsLogoFigma w-6 h-6 left-[58px] top-[367px] absolute" />
+            <div className="IconsLogoGithub w-6 h-6 left-[57px] top-[473px] absolute" />
+            <div className="IconsLogoInstagram w-6 h-6 left-[58px] top-[526px] absolute" />
+            <div className="IconsLogoLinkedin w-6 h-6 left-[57px] top-[580px] absolute" />
+            <div className="IconsLogoPinterest w-6 h-6 left-[57px] top-[631px] absolute" />
+            <div className="IconsLogoTwitter w-6 h-6 left-[59px] top-[682px] absolute" />
+            <div className="Rectangle248 w-96 h-9 left-[199px] top-[516px] absolute bg-gradient-to-bl from-cyan-400 to-cyan-700" />
+            <div className="Rectangle1 w-96 h-96 left-[1106px] top-[80px] absolute bg-gradient-to-b from-sky-400 to-cyan-700" />
+            <div className="IsabellaGalhardoFreelancerFullStackDeveloper w-96 left-[199px] top-[287px] absolute"><span className="text-black text-8xl font-light font-['Poppins']">I</span><span className="text-black text-5xl font-light font-['Poppins']">sabella </span><span className="text-black text-8xl font-light font-['Poppins']">G</span><span className="text-black text-5xl font-light font-['Poppins']">alhardo<br/>Freelancer<br/></span><span className="text-black text-5xl font-semibold font-['Poppins']">Full-stack developer</span></div>
+            <div className="OlMeuNomeIsabellaGalhardoSouDesenvolvedoraDeFreelanceFullstackDeveloperMoroEmGuaratinguetSOPauloEsrtouNoRamoDeProgramaOEMeInteresseiMuito w-96 h-24 left-[199px] top-[606px] absolute text-black text-base font-normal font-['Lato'] leading-normal">Olá, meu nome é Isabella Galhardo , sou desenvolvedora de  freelance Fullstack developer , moro em Guaratinguetá , São Paulo...  esrtou no ramo de programação e me interessei muito .</div>
+            <img className="Rectangle11 w-96 h-96 left-[871px] top-[232px] absolute" src="https://s3-alpha-sig.figma.com/img/b859/cc48/c28bf40ba0d165d7b3a16183fa6826c4?Expires=1702252800&Signature=BGQvaoQTsa3POQ-YtJiPj~5aG1oVFkKKOit~zxD8cw24Rj1pVIIVi6m6PgMR3GOE52lN4N6x6XttRLBAU0LdLfH4gCwgmny8iWMaKDOjVkw2hUZTJqZBkHzgGyBqLL5nOORDNL3hPumFGYoDQWdkN7UeeMLEiiLwtHgxKEJ45LRucCQP6b0Stq0fLwkHb0Dz~MRts0wIjHdmzO~VYScIaqQWnqeWCLr9QhRoWOtIRrsHXvuUKOYGnEZyxKiy5t1GoU3XTaM2Q8jOca9lIPvoNR18hD-9GDPeRE0uCCdy~kO0r3AvPHyWz7D5Jmwga08PXvGYVTT~j-dQkYeMG8EirA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+            <div className="Contato left-[1449px] top-[29px] absolute text-white text-xl font-medium font-['Poppins']">Contato</div>
+        </div>
+    </div>
+</div>
   )
 }
+
